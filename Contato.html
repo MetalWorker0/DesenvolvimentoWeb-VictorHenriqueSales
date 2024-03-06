@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+    <style>
+        *{box-sizing: border-box;}
+        a{
+            border: solid 2px;
+            width: 25%;
+            display: inline
+        }
+        #mens{height: 250px;}
+        .td1{
+            width: 80px;
+            float: left;
+            text-align: center;
+        }
+        .td2{
+            width: 200px;
+            border: 1px solid rgb(73, 211, 216)
+        }
+        table{
+            border: 2px solid;
+            background-color: rgb(44, 74, 156);}
+        td{border: 1px solid}
+    </style>
+</head>
+<body>
+    <div><!--links'-->
+        <a href="Pessoal.html"> Pessoal </a>
+        <a href="Formação.html"> Formação </a>
+        <a href="Portifolho.html"> Portifolho </a>
+        <a href=""> Contato </a>
+    </div>
+    <h1>Contato</h1>
+    <table><!--tabela para organizar o formulario-->
+        <tr><!--linha 1-->
+            <td class="td1">
+                Nome:
+            </td>
+            <td>
+                 <form><input type="text" name="nome" id="nome" class="td2"></form>
+            </td>
+        </tr>
+        <tr><!--linha 2-->
+             <td class="td1">
+                Email:
+            </td>
+            <td>
+                 <form><input type="email" name="email" id="email" class="td2"></form>
+            </td>
+        </tr>
+        <tr><!--linha 3-->
+            <td class="td1">
+                Mensagem:
+            </td>
+            <td>
+                 <form><input type="text" name="mensagem" id="mens" class="td2"></form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="td1">Enviar</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
